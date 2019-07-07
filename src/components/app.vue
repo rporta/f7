@@ -2,39 +2,52 @@
 <f7-app :params="f7params" ripple-color="blue">
   <!-- Status bar overlay for fullscreen mode-->
   <f7-statusbar></f7-statusbar>
-
   <!-- Left panel with cover effect-->
   <f7-panel left reveal>
     <f7-view>
       <f7-page>
-        <f7-navbar title="Left Panel"></f7-navbar>
-        <f7-block>Left panel content goes here</f7-block>
-    <f7-block-title>Navigation</f7-block-title>
-    <f7-list>
-      <f7-list-item @click="redirectTo('/about/')" title="redirectTo"></f7-list-item>
-      <f7-list-item link="/about/" title="About"></f7-list-item>
-      <f7-list-item link="/form/" title="Form"></f7-list-item>
-    </f7-list>
+        <f7-navbar title="Menu"></f7-navbar>
+        <div class="item-media" style="background-image: url(static/perfil/sample-1.jpg);padding: 50px;">
+          <img src="static/perfil/photo.jpg" style="border-radius: 50%;height: 100px;display: block;margin: auto;">
+          <div style="padding-top: 25px;">
+              <span class="badge color-green">Ramiro Portas</span>
+              <span class="badge color-red" style="margin-top: 25px;">ramiro.portas@gmail.com</span>
+          </div>
+        </div>
+        <f7-list>
+          <f7-list-item @click="redirectTo('/experienciasLaborales/')" title="experienciasLaborales"></f7-list-item>
+          <f7-list-item @click="redirectTo('/habilidadesTecnologicas/')" title="habilidadesTecnologicas"></f7-list-item>
+          <f7-list-item @click="redirectTo('/intereses/')" title="intereses"></f7-list-item>
+          <f7-list-item @click="redirectTo('/git/')" title="git"></f7-list-item>
+          <f7-list-item @click="redirectTo('/contactos/')" title="contactos"></f7-list-item>
+        </f7-list>
       </f7-page>
     </f7-view>
   </f7-panel>
-
-
   <!-- Right panel with reveal effect-->
   <f7-panel right reveal>
     <f7-view>
       <f7-page>
-        <f7-navbar title="Right Panel"></f7-navbar>
-        <f7-block>Right panel content goes here</f7-block>
+        <f7-navbar title="Menu"></f7-navbar>
+        <div class="item-media" style="background-image: url(static/perfil/sample-1.jpg);padding: 50px;">
+          <img src="static/perfil/photo.jpg" style="border-radius: 50%;height: 100px;display: block;margin: auto;">
+          <div style="padding-top: 25px;">
+              <span class="badge color-green">Ramiro Portas</span>
+              <span class="badge color-red" style="margin-top: 25px;">ramiro.portas@gmail.com</span>
+          </div>
+        </div>
+        <f7-list>
+          <f7-list-item @click="redirectTo('/experienciasLaborales/')" title="experienciasLaborales"></f7-list-item>
+          <f7-list-item @click="redirectTo('/habilidadesTecnologicas/')" title="habilidadesTecnologicas"></f7-list-item>
+          <f7-list-item @click="redirectTo('/intereses/')" title="intereses"></f7-list-item>
+          <f7-list-item @click="redirectTo('/git/')" title="git"></f7-list-item>
+          <f7-list-item @click="redirectTo('/contactos/')" title="contactos"></f7-list-item>
+        </f7-list>
       </f7-page>
     </f7-view>
   </f7-panel>
-
-
   <!-- Your main view, should have "view-main" class -->
   <f7-view main class="safe-areas" url="/"></f7-view>
-
-
   <!-- Popup -->
   <f7-popup id="my-popup">
     <f7-view>
@@ -50,36 +63,6 @@
       </f7-page>
     </f7-view>
   </f7-popup>
-
-  <f7-login-screen id="my-login-screen">
-    <f7-view>
-      <f7-page login-screen>
-        <f7-login-screen-title>Login</f7-login-screen-title>
-        <f7-list form>
-          <f7-list-input
-            type="text"
-            name="username"
-            placeholder="Your username"
-            :value="username"
-            @input="username = $event.target.value"
-          ></f7-list-input>
-          <f7-list-input
-            type="password"
-            name="password"
-            placeholder="Your password"
-            :value="password"
-            @input="password = $event.target.value"
-          ></f7-list-input>
-        </f7-list>
-        <f7-list>
-          <f7-list-button title="Sign In" login-screen-close @click="alertLoginData"></f7-list-button>
-          <f7-block-footer>
-            Some text about login information.<br>Click "Sign In" to close Login Screen
-          </f7-block-footer>
-        </f7-list>
-      </f7-page>
-    </f7-view>
-  </f7-login-screen>
 </f7-app>
 </template>
 <script>
@@ -96,44 +79,18 @@
           // App root data
           data: function () {
             return {
-              user: {
-                firstName: 'John',
-                lastName: 'Doe',
-              },
-
             };
           },
 
           // App routes
           routes: routes,
         },
-
-        // Login screen data
-        username: '',
-        password: '',
       }
     },
     methods: {
-      alertLoginData() {
-        this.$f7.dialog.alert('Username: ' + this.username + '<br>Password: ' + this.password);
-      },
-      getGlobalVue(uid = 0) {
-        var uids = {};
-        for (let i in document.all) {
-          var current = document.all[i];
-          if (current.__vue__) {
-            uids[current.__vue__._uid] = current.__vue__;
-            if (current.__vue__._uid === uid) {
-              return current.__vue__;
-            }
-          }
-        }
-        return uids;
-      },
       redirectTo(path){
-        let ff = this.getGlobalVue(0);
-        ff.$f7.view.main.router.navigate(path);
-        ff.$f7.panel.close();
+        this.$f7.view.main.router.navigate(path);
+        this.$f7.panel.close();
       }
     },
     mounted() {
