@@ -22,11 +22,11 @@ Framework7.use(Framework7Vue);
 
 // Init App
 new Vue({
-  el: '#app',
-  render: (h) => h(App),
+	el: '#app',
+	render: (h) => h(App),
 
-  // Register App Component
-  components: {
-    app: App
-  },
+	// Register App Component
+	components: {
+		app: App
+	},
 });

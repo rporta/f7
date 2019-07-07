@@ -1,21 +1,27 @@
 <template>
-<f7-app :params="f7params" >
+<f7-app :params="f7params" ripple-color="blue">
   <!-- Status bar overlay for fullscreen mode-->
   <f7-statusbar></f7-statusbar>
 
   <!-- Left panel with cover effect-->
-  <f7-panel left cover theme-dark>
+  <f7-panel left reveal>
     <f7-view>
       <f7-page>
         <f7-navbar title="Left Panel"></f7-navbar>
         <f7-block>Left panel content goes here</f7-block>
+    <f7-block-title>Navigation</f7-block-title>
+    <f7-list>
+      <f7-list-item @click="redirectTo('/about/')" title="redirectTo"></f7-list-item>
+      <f7-list-item link="/about/" title="About"></f7-list-item>
+      <f7-list-item link="/form/" title="Form"></f7-list-item>
+    </f7-list>
       </f7-page>
     </f7-view>
   </f7-panel>
 
 
   <!-- Right panel with reveal effect-->
-  <f7-panel right reveal theme-dark>
+  <f7-panel right reveal>
     <f7-view>
       <f7-page>
         <f7-navbar title="Right Panel"></f7-navbar>
@@ -110,6 +116,24 @@
     methods: {
       alertLoginData() {
         this.$f7.dialog.alert('Username: ' + this.username + '<br>Password: ' + this.password);
+      },
+      getGlobalVue(uid = 0) {
+        var uids = {};
+        for (let i in document.all) {
+          var current = document.all[i];
+          if (current.__vue__) {
+            uids[current.__vue__._uid] = current.__vue__;
+            if (current.__vue__._uid === uid) {
+              return current.__vue__;
+            }
+          }
+        }
+        return uids;
+      },
+      redirectTo(path){
+        let ff = this.getGlobalVue(0);
+        ff.$f7.view.main.router.navigate(path);
+        ff.$f7.panel.close();
       }
     },
     mounted() {

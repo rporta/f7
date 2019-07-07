@@ -5,7 +5,7 @@
       <f7-nav-left>
         <f7-link icon-ios="f7:menu" icon-aurora="f7:menu" icon-md="material:menu" panel-open="left"></f7-link>
       </f7-nav-left>
-      <f7-nav-title sliding>cv-online</f7-nav-title>
+      <f7-nav-title sliding>cv-onlinesss</f7-nav-title>
       <f7-nav-right>
         <f7-link icon-ios="f7:menu" icon-aurora="f7:menu" icon-md="material:menu" panel-open="right"></f7-link>
       </f7-nav-right>
@@ -13,8 +13,8 @@
     </f7-navbar>
     <!-- Toolbar-->
     <f7-toolbar bottom>
-      <f7-link>Left Link</f7-link>
-      <f7-link>Right Link</f7-link>
+      <f7-link panel-open="left">Left Link</f7-link>
+      <f7-link panel-open="right">Right Link</f7-link>
     </f7-toolbar>
     <!-- Page content-->
     <f7-block strong>
@@ -23,6 +23,7 @@
 
     <f7-block-title>Navigation</f7-block-title>
     <f7-list>
+      <f7-list-item link="/404/" title="404"></f7-list-item>
       <f7-list-item link="/about/" title="About"></f7-list-item>
       <f7-list-item link="/form/" title="Form"></f7-list-item>
     </f7-list>

@@ -8,5 +8,12 @@
   </f7-page>
 </template>
 <script>
-  export default {};
+  export default {
+  	methods: {
+		alertLoginData() {
+			this.$f7.dialog.alert('Username: ' + this.username + '<br>Password: ' + this.password);
+		},
+
+    }
+  };
 </script>
