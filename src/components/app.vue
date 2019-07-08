@@ -16,8 +16,8 @@
           <div class="item-media" style="background-image: url(static/perfil/sample-1.jpg);padding: 50px;">
             <img src="static/perfil/photo.jpg" style="border-radius: 50%;height: 100px;display: block;margin: auto;">
             <div style="padding-top: 25px;">
-              <span class="badge color-green">Ramiro Portas</span>
-              <span class="badge color-red" style="margin-top: 25px;">ramiro.portas@gmail.com</span>
+              <span class="badge color-green" style="padding: 5px;border-radius: 3px;">Ramiro Portas</span>
+              <span class="badge color-red" style="margin-top: 25px; padding: 5px;border-radius: 3px;">ramiro.portas@gmail.com</span>
             </div>
           </div>
           <f7-list style="margin: 0px;" >
@@ -57,8 +57,8 @@
           <div class="item-media" style="background-image: url(static/perfil/sample-1.jpg);padding: 50px;">
             <img src="static/perfil/photo.jpg" style="border-radius: 50%;height: 100px;display: block;margin: auto;">
             <div style="padding-top: 25px;">
-              <span class="badge color-green">Ramiro Portas</span>
-              <span class="badge color-red" style="margin-top: 25px;">ramiro.portas@gmail.com</span>
+              <span class="badge color-green" style="padding: 5px;border-radius: 3px;">Ramiro Portas</span>
+              <span class="badge color-red" style="margin-top: 25px; padding: 5px;border-radius: 3px;">ramiro.portas@gmail.com</span>
             </div>
           </div>
           <f7-list style="margin: 0px;">
