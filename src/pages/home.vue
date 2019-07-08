@@ -11,14 +11,7 @@
       </f7-nav-right>
     </f7-navbar>
     <!-- Page content-->
-    <f7-list tablet-inset>
-      <f7-list-item >
-        <f7-icon slot="media" material="home"></f7-icon>
-        <f7-block-title large style="margin: 0;">Home</f7-block-title>
-      </f7-list-item>
-    </f7-list>
-    <f7-block inset>
-    </f7-block>  
+    <f7-block-title large style="margin: 0%;width: 100%;height: 100%;text-align: center;line-height: -moz-block-height;">Home</f7-block-title>
     <!-- Toolbar-->
     <f7-toolbar bottom>
       <f7-link panel-open="left">Left Link</f7-link>
