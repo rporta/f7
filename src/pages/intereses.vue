@@ -8,12 +8,177 @@
     <f7-list tablet-inset>
       <f7-list-item >
         <f7-icon slot="media" f7="demo-list-icon"></f7-icon>
-        <f7-block-title large style="margin: 0;">Data list, with icons</f7-block-title>
+        <f7-block-title large style="margin: 0;">A continuacion se exponene algunos interes</f7-block-title>
       </f7-list-item>
     </f7-list>
-    <f7-block strong>
-        <p>Donec et nulla auctor massa pharetra adipiscing ut sit amet sem. Suspendisse molestie velit vitae mattis tincidunt. Ut sit amet quam mollis, vulputate turpis vel, sagittis felis. </p>
+    <f7-block inset>
     </f7-block>
+
+    <!-- row 1 -->
+    <f7-row>
+      <f7-col style="padding: 25px;">
+        <f7-card class="demo-card-header-pic" style="height: 300px;margin: auto;">
+          <f7-card-header
+            text-color="white"
+            class="no-border"
+            valign="bottom"
+            style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg);height: 250px;"
+          >Journey To Mountains</f7-card-header>
+          <f7-toolbar bg-color="white">
+            <f7-link @click="redirectTo('/currentInteres/')" link="#" text-color="black">Ver mas</f7-link>
+          </f7-toolbar>
+        </f7-card>  
+      </f7-col>
+      <f7-col style="padding: 25px;">
+        <f7-card class="demo-card-header-pic" style="height: 300px;margin: auto;">
+          <f7-card-header
+            text-color="white"
+            class="no-border"
+            valign="bottom"
+            style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg);height: 250px;"
+          >Journey To Mountains</f7-card-header>
+          <f7-toolbar bg-color="white">
+            <f7-link @click="redirectTo('/currentInteres/')" link="#" text-color="black">Ver mas</f7-link>
+          </f7-toolbar>
+        </f7-card>  
+      </f7-col>
+      <f7-col style="padding: 25px;">
+        <f7-card class="demo-card-header-pic" style="height: 300px;margin: auto;">
+          <f7-card-header
+            text-color="white"
+            class="no-border"
+            valign="bottom"
+            style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg);height: 250px;"
+          >Journey To Mountains</f7-card-header>
+          <f7-toolbar bg-color="white">
+            <f7-link @click="redirectTo('/currentInteres/')" link="#" text-color="black">Ver mas</f7-link>
+          </f7-toolbar>
+        </f7-card>  
+      </f7-col>
+      <f7-col style="padding: 25px;">
+        <f7-card class="demo-card-header-pic" style="height: 300px;margin: auto;">
+          <f7-card-header
+            text-color="white"
+            class="no-border"
+            valign="bottom"
+            style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg);height: 250px;"
+          >Journey To Mountains</f7-card-header>
+          <f7-toolbar bg-color="white">
+            <f7-link @click="redirectTo('/currentInteres/')" link="#" text-color="black">Ver mas</f7-link>
+          </f7-toolbar>
+        </f7-card>  
+      </f7-col>
+    </f7-row>
+    <!-- row 2 -->
+    <f7-row>
+      <f7-col style="padding: 25px;">
+        <f7-card class="demo-card-header-pic" style="height: 300px;margin: auto;">
+          <f7-card-header
+            text-color="white"
+            class="no-border"
+            valign="bottom"
+            style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg);height: 250px;"
+          >Journey To Mountains</f7-card-header>
+          <f7-toolbar bg-color="white">
+            <f7-link @click="redirectTo('/currentInteres/')" link="#" text-color="black">Ver mas</f7-link>
+          </f7-toolbar>
+        </f7-card>  
+      </f7-col>
+      <f7-col style="padding: 25px;">
+        <f7-card class="demo-card-header-pic" style="height: 300px;margin: auto;">
+          <f7-card-header
+            text-color="white"
+            class="no-border"
+            valign="bottom"
+            style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg);height: 250px;"
+          >Journey To Mountains</f7-card-header>
+          <f7-toolbar bg-color="white">
+            <f7-link @click="redirectTo('/currentInteres/')" link="#" text-color="black">Ver mas</f7-link>
+          </f7-toolbar>
+        </f7-card>  
+      </f7-col>
+      <f7-col style="padding: 25px;">
+        <f7-card class="demo-card-header-pic" style="height: 300px;margin: auto;">
+          <f7-card-header
+            text-color="white"
+            class="no-border"
+            valign="bottom"
+            style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg);height: 250px;"
+          >Journey To Mountains</f7-card-header>
+          <f7-toolbar bg-color="white">
+            <f7-link @click="redirectTo('/currentInteres/')" link="#" text-color="black">Ver mas</f7-link>
+          </f7-toolbar>
+        </f7-card>  
+      </f7-col>
+      <f7-col style="padding: 25px;">
+        <f7-card class="demo-card-header-pic" style="height: 300px;margin: auto;">
+          <f7-card-header
+            text-color="white"
+            class="no-border"
+            valign="bottom"
+            style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg);height: 250px;"
+          >Journey To Mountains</f7-card-header>
+          <f7-toolbar bg-color="white">
+            <f7-link @click="redirectTo('/currentInteres/')" link="#" text-color="black">Ver mas</f7-link>
+          </f7-toolbar>
+        </f7-card>  
+      </f7-col>
+    </f7-row>
+    <!-- row 3 -->
+    <f7-row>
+      <f7-col style="padding: 25px;">
+        <f7-card class="demo-card-header-pic" style="height: 300px;margin: auto;">
+          <f7-card-header
+            text-color="white"
+            class="no-border"
+            valign="bottom"
+            style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg);height: 250px;"
+          >Journey To Mountains</f7-card-header>
+          <f7-toolbar bg-color="white">
+            <f7-link @click="redirectTo('/currentInteres/')" link="#" text-color="black">Ver mas</f7-link>
+          </f7-toolbar>
+        </f7-card>  
+      </f7-col>
+      <f7-col style="padding: 25px;">
+        <f7-card class="demo-card-header-pic" style="height: 300px;margin: auto;">
+          <f7-card-header
+            text-color="white"
+            class="no-border"
+            valign="bottom"
+            style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg);height: 250px;"
+          >Journey To Mountains</f7-card-header>
+          <f7-toolbar bg-color="white">
+            <f7-link @click="redirectTo('/currentInteres/')" link="#" text-color="black">Ver mas</f7-link>
+          </f7-toolbar>
+        </f7-card>  
+      </f7-col>
+      <f7-col style="padding: 25px;">
+        <f7-card class="demo-card-header-pic" style="height: 300px;margin: auto;">
+          <f7-card-header
+            text-color="white"
+            class="no-border"
+            valign="bottom"
+            style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg);height: 250px;"
+          >Journey To Mountains</f7-card-header>
+          <f7-toolbar bg-color="white">
+            <f7-link @click="redirectTo('/currentInteres/')" link="#" text-color="black">Ver mas</f7-link>
+          </f7-toolbar>
+        </f7-card>  
+      </f7-col>
+      <f7-col style="padding: 25px;">
+        <f7-card class="demo-card-header-pic" style="height: 300px;margin: auto;">
+          <f7-card-header
+            text-color="white"
+            class="no-border"
+            valign="bottom"
+            style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg);height: 250px;"
+          >Journey To Mountains</f7-card-header>
+          <f7-toolbar bg-color="white">
+            <f7-link @click="redirectTo('/currentInteres/')" link="#" text-color="black">Ver mas</f7-link>
+          </f7-toolbar>
+        </f7-card>  
+      </f7-col>
+    </f7-row>
   </f7-page>
 </template>
 <script>
@@ -29,7 +194,10 @@
       }
     },
     methods: {
-
+      redirectTo(path){
+        this.$f7.view.main.router.navigate(path);
+        this.$f7.panel.close();
+      }
     }
   };
 </script>

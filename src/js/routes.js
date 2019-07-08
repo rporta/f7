@@ -5,6 +5,7 @@ import HabilidadesTecnologicas from '../pages/habilidadesTecnologicas.vue';
 import Git from '../pages/git.vue';
 import Intereses from '../pages/intereses.vue';
 import Contactos from '../pages/contactos.vue';
+import CurrentInteres from '../pages/currentInteres.vue';
 
 var routes = [{
 	path: '/',
@@ -21,6 +22,9 @@ var routes = [{
 }, {
 	path: '/git/',
 	component: Git,
+}, {
+	path: '/currentInteres/',
+	component: CurrentInteres,
 }, {
 	path: '/contactos/',
 	component: Contactos,
