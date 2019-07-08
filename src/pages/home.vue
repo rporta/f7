@@ -11,9 +11,14 @@
       </f7-nav-right>
     </f7-navbar>
     <!-- Page content-->
-    <f7-block strong>
-      <p>Here is your blank Framework7 app. Let's see what we have here.</p>
-    </f7-block>
+    <f7-list tablet-inset>
+      <f7-list-item >
+        <f7-icon slot="media" material="home"></f7-icon>
+        <f7-block-title large style="margin: 0;">Home</f7-block-title>
+      </f7-list-item>
+    </f7-list>
+    <f7-block inset>
+    </f7-block>  
     <!-- Toolbar-->
     <f7-toolbar bottom>
       <f7-link panel-open="left">Left Link</f7-link>

@@ -22,22 +22,22 @@
           </div>
           <f7-list style="margin: 0px;" >
             <f7-list-item link="#" @click="redirectTo('/')" title="Home">
-              <f7-icon slot="media" f7="arrow_right" color="black"></f7-icon>
+              <f7-icon slot="media" material="looks_one" color="black"></f7-icon>
             </f7-list-item>
             <f7-list-item link="#" @click="redirectTo('/experienciasLaborales/')" title="experienciasLaborales">
-              <f7-icon slot="media" f7="arrow_right" color="black"></f7-icon>
+              <f7-icon slot="media" material="looks_two" color="black"></f7-icon>
             </f7-list-item>
             <f7-list-item link="#" @click="redirectTo('/habilidadesTecnologicas/')" title="habilidades Tecnologicas">
-              <f7-icon slot="media" f7="arrow_right" color="black"></f7-icon>
+              <f7-icon slot="media" material="looks_3" color="black"></f7-icon>
             </f7-list-item>
             <f7-list-item link="#" @click="redirectTo('/intereses/')" title="intereses">
-              <f7-icon slot="media" f7="arrow_right" color="black"></f7-icon>
+              <f7-icon slot="media" material="looks_4" color="black"></f7-icon>
             </f7-list-item>
             <f7-list-item link="#" @click="redirectTo('/git/')" title="git">
-              <f7-icon slot="media" f7="arrow_right" color="black"></f7-icon>
+              <f7-icon slot="media" material="looks_5" color="black"></f7-icon>
             </f7-list-item>
             <f7-list-item link="#" @click="redirectTo('/contactos/')" title="contactos">
-              <f7-icon slot="media" f7="arrow_right" color="black"></f7-icon>
+              <f7-icon slot="media" material="looks_6" color="black"></f7-icon>
             </f7-list-item>
           </f7-list>
         </f7-page>
@@ -61,24 +61,24 @@
               <span class="badge color-red" style="margin-top: 25px; padding: 5px;border-radius: 3px;">ramiro.portas@gmail.com</span>
             </div>
           </div>
-          <f7-list style="margin: 0px;">
+          <f7-list style="margin: 0px;" >
             <f7-list-item link="#" @click="redirectTo('/')" title="Home">
-              <f7-icon slot="media" f7="arrow_right" color="black"></f7-icon>
+              <f7-icon slot="media" material="looks_one" color="black"></f7-icon>
             </f7-list-item>
             <f7-list-item link="#" @click="redirectTo('/experienciasLaborales/')" title="experienciasLaborales">
-              <f7-icon slot="media" f7="arrow_right" color="black"></f7-icon>
+              <f7-icon slot="media" material="looks_two" color="black"></f7-icon>
             </f7-list-item>
             <f7-list-item link="#" @click="redirectTo('/habilidadesTecnologicas/')" title="habilidades Tecnologicas">
-              <f7-icon slot="media" f7="arrow_right" color="black"></f7-icon>
+              <f7-icon slot="media" material="looks_3" color="black"></f7-icon>
             </f7-list-item>
             <f7-list-item link="#" @click="redirectTo('/intereses/')" title="intereses">
-              <f7-icon slot="media" f7="arrow_right" color="black"></f7-icon>
+              <f7-icon slot="media" material="looks_4" color="black"></f7-icon>
             </f7-list-item>
             <f7-list-item link="#" @click="redirectTo('/git/')" title="git">
-              <f7-icon slot="media" f7="arrow_right" color="black"></f7-icon>
+              <f7-icon slot="media" material="looks_5" color="black"></f7-icon>
             </f7-list-item>
             <f7-list-item link="#" @click="redirectTo('/contactos/')" title="contactos">
-              <f7-icon slot="media" f7="arrow_right" color="black"></f7-icon>
+              <f7-icon slot="media" material="looks_6" color="black"></f7-icon>
             </f7-list-item>
           </f7-list>
         </f7-page>

@@ -5,6 +5,14 @@
         <f7-link icon-ios="f7:menu" icon-aurora="f7:menu" icon-md="material:menu" panel-open="right"></f7-link>
       </f7-nav-right>
     </f7-navbar>
+    <f7-list tablet-inset>
+      <f7-list-item >
+        <f7-icon slot="media" f7="demo-list-icon"></f7-icon>
+        <f7-block-title large style="margin: 0;">A continuacion se exponene algunos repositorios</f7-block-title>
+      </f7-list-item>
+    </f7-list>
+    <f7-block inset>
+    </f7-block>
   <f7-row>
     <f7-col width="33"><img src="static/section/git/perfil.png" width="250" style="padding: 20px;display: block;margin: auto;" /></f7-col>
     <f7-col width="66">
