@@ -1,5 +1,5 @@
 <template>
-  <f7-page name="home">
+  <f7-page name="home" style="background-image: url(static/header/header.jpg);background-repeat: round;">
     <!-- Top Navbar -->
     <f7-navbar :sliding="false" :bg-color="this.navbar['bg-color']" :text-color="this.navbar['text-color']" :color="this.navbar['color']">
       <f7-nav-left>
@@ -11,11 +11,11 @@
       </f7-nav-right>
     </f7-navbar>
     <!-- Page content-->
-    <f7-block-title large style="margin: 0%;width: 100%;height: 100%;text-align: center;line-height: -moz-block-height;">Home</f7-block-title>
+    <f7-block-title text-color="white" large style="margin: 0%;width: 100%;height: 100%;text-align: center;line-height: -moz-block-height;">Home</f7-block-title>
     <!-- Toolbar-->
-    <f7-toolbar bottom>
-      <f7-link panel-open="left">Left Link</f7-link>
-      <f7-link panel-open="right">Right Link</f7-link>
+    <f7-toolbar bottom style="background-color: #ffffff1f;">
+      <f7-link panel-open="left" text-color="white">Panel izquierdo</f7-link>
+      <f7-link panel-open="right" text-color="white">Panel derecho</f7-link>
     </f7-toolbar>
   </f7-page>
 </template>
