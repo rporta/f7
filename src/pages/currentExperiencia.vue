@@ -11,7 +11,8 @@
         <f7-block-title large style="margin: 0;">A continuacion se exponene algunos Experiencia laboral</f7-block-title>
       </f7-list-item>
     </f7-list>
-    <f7-block inset>
+    <f7-block strong >
+      <p>asdasdasd</p>
     </f7-block>
   </f7-page>
 </template>
