@@ -8,7 +8,7 @@
     <f7-list tablet-inset>
       <f7-list-item >
         <f7-icon slot="media" f7="demo-list-icon"></f7-icon>
-        <f7-block-title large style="margin: 0;">A continuacion se exponene algunos Experiencia laboral</f7-block-title>
+        <f7-block-title large style="margin: 0;">Current Experiencia laboral</f7-block-title>
       </f7-list-item>
     </f7-list>
     <f7-block strong >
@@ -21,7 +21,7 @@
     data: function () {
       return {
         "navbar" : {
-          "title": "Intereses",
+          "title": "Current Experiencia laboral",
           "bg-color":"deeppurple",
           "text-color":"white",
           "color":"white",

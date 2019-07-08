@@ -7,6 +7,7 @@ import Intereses from '../pages/intereses.vue';
 import Contactos from '../pages/contactos.vue';
 import CurrentInteres from '../pages/currentInteres.vue';
 import CurrentExperiencia from '../pages/currentExperiencia.vue';
+import CurrentGit from '../pages/currentGit.vue';
 
 var routes = [{
 	path: '/',
@@ -29,6 +30,9 @@ var routes = [{
 }, {
 	path: '/currentExperiencia/',
 	component: CurrentExperiencia,
+}, {
+	path: '/currentGit/',
+	component: CurrentGit,
 }, {
 	path: '/contactos/',
 	component: Contactos,

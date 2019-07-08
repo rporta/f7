@@ -21,7 +21,7 @@ import App from '../components/app.vue';
 Framework7.use(Framework7Vue);
 
 // Init App
-new Vue({
+cvOnline = new Vue({
 	el: '#app',
 	render: (h) => h(App),
 

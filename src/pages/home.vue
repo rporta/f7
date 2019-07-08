@@ -28,7 +28,7 @@
           "bg-color":"deeppurple",
           "text-color":"white",
           "color":"white",
-        },
+        }
       }
     },
     methods: {
@@ -43,12 +43,15 @@
       }
     },
     created: function () {
-      this.openDialog("Cargando");
-      (x => {
-        setTimeout(function() {
-          x.closeDialog();
-        }, 1000);
-      })(this);
+      if(!loadInit){
+        this.openDialog("Cargando");
+        (x => {
+          setTimeout(function() {
+            x.closeDialog();
+          }, 1000);
+        })(this);
+        loadInit = true;
+      }
     }
   };
 </script>
