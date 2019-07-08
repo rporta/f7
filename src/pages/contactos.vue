@@ -5,6 +5,9 @@
         <f7-link icon-ios="f7:menu" icon-aurora="f7:menu" icon-md="material:menu" panel-open="right"></f7-link>
       </f7-nav-right>
     </f7-navbar>
+    <f7-block>
+      Envianos tu mensaje por esta via 
+    </f7-block>
       <f7-list no-hairlines-md>
         <f7-list-input
           outline
