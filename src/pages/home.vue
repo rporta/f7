@@ -24,7 +24,7 @@
     data: function () {
       return {
         "navbar" : {
-          "title": "cv-online",
+          "title": "Main",
           "bg-color":"deeppurple",
           "text-color":"white",
           "color":"white",

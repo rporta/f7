@@ -24,19 +24,19 @@
             <f7-list-item link="#" @click="redirectTo('/')" title="Home">
               <f7-icon slot="media" material="looks_one" color="black"></f7-icon>
             </f7-list-item>
-            <f7-list-item link="#" @click="redirectTo('/experienciasLaborales/')" title="experienciasLaborales">
+            <f7-list-item link="#" @click="redirectTo('/experienciasLaborales/')" title="Experiencias laborales">
               <f7-icon slot="media" material="looks_two" color="black"></f7-icon>
             </f7-list-item>
-            <f7-list-item link="#" @click="redirectTo('/habilidadesTecnologicas/')" title="habilidades Tecnologicas">
+            <f7-list-item link="#" @click="redirectTo('/habilidadesTecnologicas/')" title="Habilidades tecnologicas">
               <f7-icon slot="media" material="looks_3" color="black"></f7-icon>
             </f7-list-item>
-            <f7-list-item link="#" @click="redirectTo('/intereses/')" title="intereses">
+            <f7-list-item link="#" @click="redirectTo('/intereses/')" title="Intereses">
               <f7-icon slot="media" material="looks_4" color="black"></f7-icon>
             </f7-list-item>
-            <f7-list-item link="#" @click="redirectTo('/git/')" title="git">
+            <f7-list-item link="#" @click="redirectTo('/git/')" title="Git">
               <f7-icon slot="media" material="looks_5" color="black"></f7-icon>
             </f7-list-item>
-            <f7-list-item link="#" @click="redirectTo('/contactos/')" title="contactos">
+            <f7-list-item link="#" @click="redirectTo('/contactos/')" title="Contactos">
               <f7-icon slot="media" material="looks_6" color="black"></f7-icon>
             </f7-list-item>
           </f7-list>
@@ -65,19 +65,19 @@
             <f7-list-item link="#" @click="redirectTo('/')" title="Home">
               <f7-icon slot="media" material="looks_one" color="black"></f7-icon>
             </f7-list-item>
-            <f7-list-item link="#" @click="redirectTo('/experienciasLaborales/')" title="experienciasLaborales">
+            <f7-list-item link="#" @click="redirectTo('/experienciasLaborales/')" title="Experiencias laborales">
               <f7-icon slot="media" material="looks_two" color="black"></f7-icon>
             </f7-list-item>
-            <f7-list-item link="#" @click="redirectTo('/habilidadesTecnologicas/')" title="habilidades Tecnologicas">
+            <f7-list-item link="#" @click="redirectTo('/habilidadesTecnologicas/')" title="Habilidades Tecnologicas">
               <f7-icon slot="media" material="looks_3" color="black"></f7-icon>
             </f7-list-item>
-            <f7-list-item link="#" @click="redirectTo('/intereses/')" title="intereses">
+            <f7-list-item link="#" @click="redirectTo('/intereses/')" title="Intereses">
               <f7-icon slot="media" material="looks_4" color="black"></f7-icon>
             </f7-list-item>
-            <f7-list-item link="#" @click="redirectTo('/git/')" title="git">
+            <f7-list-item link="#" @click="redirectTo('/git/')" title="Git">
               <f7-icon slot="media" material="looks_5" color="black"></f7-icon>
             </f7-list-item>
-            <f7-list-item link="#" @click="redirectTo('/contactos/')" title="contactos">
+            <f7-list-item link="#" @click="redirectTo('/contactos/')" title="Contactos">
               <f7-icon slot="media" material="looks_6" color="black"></f7-icon>
             </f7-list-item>
           </f7-list>

@@ -68,7 +68,7 @@
     data: function () {
       return {
         "navbar" : {
-          "title": "contactos",
+          "title": "Contactos",
           "bg-color":"deeppurple",
           "text-color":"white",
           "color":"white",
