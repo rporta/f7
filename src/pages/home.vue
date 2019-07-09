@@ -11,7 +11,7 @@
       </f7-nav-right>
     </f7-navbar>
     <!-- Page content-->
-    <f7-block-title text-color="white" large style="margin: 0%;width: 100%;height: 100%;text-align: center;line-height: -moz-block-height;">Home</f7-block-title>
+    <f7-block-title text-color="white" large style="margin: 0%;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);">Home</f7-block-title>
     <!-- Toolbar-->
     <f7-toolbar bottom style="background-color: #ffffff1f;">
       <f7-link panel-open="left" text-color="white">Panel izquierdo</f7-link>
