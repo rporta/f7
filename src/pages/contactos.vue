@@ -15,7 +15,7 @@
     </f7-block>
     <f7-list no-hairlines-md>
       <f7-list-input
-        outline
+        
         label="Nobre"
         floating-label
         type="text"
@@ -25,7 +25,7 @@
         <f7-icon f7="edit" slot="media"></f7-icon>
       </f7-list-input>
       <f7-list-input
-        outline
+        
         label="Apellido"
         floating-label
         type="text"
@@ -35,7 +35,7 @@
         <f7-icon f7="edit" slot="media"></f7-icon>
       </f7-list-input>
       <f7-list-input
-        outline
+        
         label="E-mail"
         floating-label
         type="email"
@@ -45,7 +45,7 @@
         <f7-icon f7="edit" slot="media"></f7-icon>
       </f7-list-input>
       <f7-list-input
-        outline
+        
         label="Mensaje"
         floating-label
         type="textarea"
