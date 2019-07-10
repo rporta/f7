@@ -35,6 +35,7 @@ Framework7 app created with following options:
 
 ## NPM Scripts
 
+* `npm install` - install development dependency
 * `npm start` - run development server
 * `npm run build-prod` - build web app for production
 * `npm run build-dev` - build web app using development mode (faster build without minification and optimization)
