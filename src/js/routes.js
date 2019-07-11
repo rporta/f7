@@ -25,13 +25,13 @@ var routes = [{
 	path: '/git/',
 	component: Git,
 }, {
-	path: '/currentInteres/',
+	path: '/currentInteres/:ptitulu',
 	component: CurrentInteres,
 }, {
-	path: '/currentExperiencia/',
+	path: '/currentExperiencia/:ptitulu',
 	component: CurrentExperiencia,
 }, {
-	path: '/currentGit/',
+	path: '/currentGit/:ptitulu',
 	component: CurrentGit,
 }, {
 	path: '/contactos/',

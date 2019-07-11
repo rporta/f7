@@ -8,7 +8,7 @@
     <f7-list tablet-inset>
       <f7-list-item >
         <f7-icon slot="media" f7="demo-list-icon"></f7-icon>
-        <f7-block-title large style="margin: 0;">A continuacion se exponene informacion del repositorio</f7-block-title>
+        <f7-block-title large style="margin: 0;">Dashboard repositorios</f7-block-title>
       </f7-list-item>
     </f7-list>
     <f7-block inset>
@@ -38,64 +38,64 @@
   </f7-row>
   <f7-block-title>Lista de repositorios</f7-block-title>
   <f7-list>
-    <f7-list-item title="mod_01" link="#" @click="redirectTo('/currentGit/')">
+    <f7-list-item title="mod_01" link="#" @click="redirectTo('/currentGit/mod_01')">
       <f7-icon slot="media" f7="attachment"></f7-icon>
     </f7-list-item>
-    <f7-list-item title="dirbase" link="#" @click="redirectTo('/currentGit/')">
+    <f7-list-item title="dirbase" link="#" @click="redirectTo('/currentGit/dirbase')">
       <f7-icon slot="media" f7="attachment"></f7-icon>
     </f7-list-item>
-    <f7-list-item title="OP-257" link="#" @click="redirectTo('/currentGit/')">
+    <f7-list-item title="OP-257" link="#" @click="redirectTo('/currentGit/OP-257')">
       <f7-icon slot="media" f7="attachment"></f7-icon>
     </f7-list-item>
-    <f7-list-item title="viewbuilder2.0" link="#" @click="redirectTo('/currentGit/')">
+    <f7-list-item title="viewbuilder2.0" link="#" @click="redirectTo('/currentGit/viewbuilder2.0')">
       <f7-icon slot="media" f7="attachment"></f7-icon>
     </f7-list-item>
-    <f7-list-item title="cv-online" link="#" @click="redirectTo('/currentGit/')">
+    <f7-list-item title="cv-online" link="#" @click="redirectTo('/currentGit/cv-online')">
       <f7-icon slot="media" f7="attachment"></f7-icon>
     </f7-list-item>
-    <f7-list-item title="apifox" link="#" @click="redirectTo('/currentGit/')">
+    <f7-list-item title="apifox" link="#" @click="redirectTo('/currentGit/apifox')">
       <f7-icon slot="media" f7="attachment"></f7-icon>
     </f7-list-item>
-    <f7-list-item title="viewBuilder" link="#" @click="redirectTo('/currentGit/')">
+    <f7-list-item title="viewBuilder" link="#" @click="redirectTo('/currentGit/viewBuilder')">
       <f7-icon slot="media" f7="attachment"></f7-icon>
     </f7-list-item>
-    <f7-list-item title="opraTest" link="#" @click="redirectTo('/currentGit/')">
+    <f7-list-item title="opraTest" link="#" @click="redirectTo('/currentGit/opraTest')">
       <f7-icon slot="media" f7="attachment"></f7-icon>
     </f7-list-item>
-    <f7-list-item title="vodacomza" link="#" @click="redirectTo('/currentGit/')">
+    <f7-list-item title="vodacomza" link="#" @click="redirectTo('/currentGit/vodacomza')">
       <f7-icon slot="media" f7="attachment"></f7-icon>
     </f7-list-item>
-    <f7-list-item title="googleads-php-lib" link="#" @click="redirectTo('/currentGit/')">
+    <f7-list-item title="googleads-php-lib" link="#" @click="redirectTo('/currentGit/googleads-php-lib')">
       <f7-icon slot="media" f7="attachment"></f7-icon>
     </f7-list-item>
-    <f7-list-item title="vuejs" link="#" @click="redirectTo('/currentGit/')">
+    <f7-list-item title="vuejs" link="#" @click="redirectTo('/currentGit/vuejs')">
       <f7-icon slot="media" f7="attachment"></f7-icon>
     </f7-list-item>
-    <f7-list-item title="17" link="#" @click="redirectTo('/currentGit/')">
+    <f7-list-item title="17" link="#" @click="redirectTo('/currentGit/17')">
       <f7-icon slot="media" f7="attachment"></f7-icon>
     </f7-list-item>
-    <f7-list-item title="mockup" link="#" @click="redirectTo('/currentGit/')">
+    <f7-list-item title="mockup" link="#" @click="redirectTo('/currentGit/mockup')">
       <f7-icon slot="media" f7="attachment"></f7-icon>
     </f7-list-item>
-    <f7-list-item title="evaluacion" link="#" @click="redirectTo('/currentGit/')">
+    <f7-list-item title="evaluacion" link="#" @click="redirectTo('/currentGit/evaluacion')">
       <f7-icon slot="media" f7="attachment"></f7-icon>
     </f7-list-item>
-    <f7-list-item title="symfony_mcss" link="#" @click="redirectTo('/currentGit/')">
+    <f7-list-item title="symfony_mcss" link="#" @click="redirectTo('/currentGit/symfony_mcss')">
       <f7-icon slot="media" f7="attachment"></f7-icon>
     </f7-list-item>
-    <f7-list-item title="materializecss" link="#" @click="redirectTo('/currentGit/')">
+    <f7-list-item title="materializecss" link="#" @click="redirectTo('/currentGit/materializecss')">
       <f7-icon slot="media" f7="attachment"></f7-icon>
     </f7-list-item>
-    <f7-list-item title="ambionis" link="#" @click="redirectTo('/currentGit/')">
+    <f7-list-item title="ambionis" link="#" @click="redirectTo('/currentGit/ambionis')">
       <f7-icon slot="media" f7="attachment"></f7-icon>
     </f7-list-item>
-    <f7-list-item title="3dm" link="#" @click="redirectTo('/currentGit/')">
+    <f7-list-item title="3dm" link="#" @click="redirectTo('/currentGit/3dm')">
       <f7-icon slot="media" f7="attachment"></f7-icon>
     </f7-list-item>
-    <f7-list-item title="estudio-hcrgs" link="#" @click="redirectTo('/currentGit/')">
+    <f7-list-item title="estudio-hcrgs" link="#" @click="redirectTo('/currentGit/estudio-hcrgs')">
       <f7-icon slot="media" f7="attachment"></f7-icon>
     </f7-list-item>
-    <f7-list-item title="porfolio---servicios" link="#" @click="redirectTo('/currentGit/')">
+    <f7-list-item title="porfolio---servicios" link="#" @click="redirectTo('/currentGit/porfolio---servicios')">
       <f7-icon slot="media" f7="attachment"></f7-icon>
     </f7-list-item>
   </f7-list>
