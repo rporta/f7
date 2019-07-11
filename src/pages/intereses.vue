@@ -22,7 +22,7 @@
             text-color="white"
             class="no-border"
             valign="bottom"
-            style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg);height: 250px;"
+            style="background-repeat: no-repeat;background-image:url(static/section/intereses/musica.jpg);height: 250px;"
           >Musica</f7-card-header>
           <f7-toolbar bg-color="white">
             <f7-link @click="redirectTo('/currentInteres/Musica')" link="#" text-color="black">Ver mas</f7-link>
@@ -35,7 +35,7 @@
             text-color="white"
             class="no-border"
             valign="bottom"
-            style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg);height: 250px;"
+            style="background-repeat: no-repeat;background-image:url(static/section/intereses/tecnologia.jpg);height: 250px;"
           >Tecnologia</f7-card-header>
           <f7-toolbar bg-color="white">
             <f7-link @click="redirectTo('/currentInteres/Tecnologia')" link="#" text-color="black">Ver mas</f7-link>
@@ -48,7 +48,7 @@
             text-color="white"
             class="no-border"
             valign="bottom"
-            style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg);height: 250px;"
+            style="background-repeat: no-repeat;background-image:url(static/section/intereses/viajar.jpg);height: 250px;"
           >Viajar</f7-card-header>
           <f7-toolbar bg-color="white">
             <f7-link @click="redirectTo('/currentInteres/Viajar')" link="#" text-color="black">Ver mas</f7-link>
@@ -61,7 +61,7 @@
             text-color="white"
             class="no-border"
             valign="bottom"
-            style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg);height: 250px;"
+            style="background-repeat: no-repeat;background-image:url(static/section/intereses/aire-libre.jpg);height: 250px;"
           >Aire Libre</f7-card-header>
           <f7-toolbar bg-color="white">
             <f7-link @click="redirectTo('/currentInteres/Aire Libre')" link="#" text-color="black">Ver mas</f7-link>
@@ -77,7 +77,7 @@
             text-color="white"
             class="no-border"
             valign="bottom"
-            style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg);height: 250px;"
+            style="background-repeat: no-repeat;background-image:url(static/section/intereses/framework.jpg);height: 250px;"
           >Frameworks</f7-card-header>
           <f7-toolbar bg-color="white">
             <f7-link @click="redirectTo('/currentInteres/Frameworks')" link="#" text-color="black">Ver mas</f7-link>
@@ -90,7 +90,7 @@
             text-color="white"
             class="no-border"
             valign="bottom"
-            style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg);height: 250px;"
+            style="background-repeat: no-repeat;background-image:url(static/section/intereses/modelado-3d.jpg);height: 250px;"
           >Modelado 3D</f7-card-header>
           <f7-toolbar bg-color="white">
             <f7-link @click="redirectTo('/currentInteres/Modelado 3D')" link="#" text-color="black">Ver mas</f7-link>
@@ -103,7 +103,7 @@
             text-color="white"
             class="no-border"
             valign="bottom"
-            style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg);height: 250px;"
+            style="background-repeat: no-repeat;background-image:url(static/section/intereses/efectos-especiales.gif);height: 250px;"
           >Efectos especiales</f7-card-header>
           <f7-toolbar bg-color="white">
             <f7-link @click="redirectTo('/currentInteres/Efectos especiales')" link="#" text-color="black">Ver mas</f7-link>
@@ -116,7 +116,7 @@
             text-color="white"
             class="no-border"
             valign="bottom"
-            style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg);height: 250px;"
+            style="background-repeat: no-repeat;background-image:url(static/section/intereses/sumulacion-fisica.gif);height: 250px;"
           >Simulaciones fisicas</f7-card-header>
           <f7-toolbar bg-color="white">
             <f7-link @click="redirectTo('/currentInteres/Simulaciones fisicas')" link="#" text-color="black">Ver mas</f7-link>
@@ -132,7 +132,7 @@
             text-color="white"
             class="no-border"
             valign="bottom"
-            style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg);height: 250px;"
+            style="background-repeat: no-repeat;background-image:url(static/section/intereses/ui.jpg);height: 250px;"
           >UI</f7-card-header>
           <f7-toolbar bg-color="white">
             <f7-link @click="redirectTo('/currentInteres/Generar interfaces')" link="#" text-color="black">Ver mas</f7-link>
@@ -145,7 +145,7 @@
             text-color="white"
             class="no-border"
             valign="bottom"
-            style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg);height: 250px;"
+            style="background-repeat: no-repeat;background-image:url(static/section/intereses/comunicacion-hardware.jpg);height: 250px;"
           >Comunicacion con hardware</f7-card-header>
           <f7-toolbar bg-color="white">
             <f7-link @click="redirectTo('/currentInteres/Comunicacion con hardware')" link="#" text-color="black">Ver mas</f7-link>
@@ -158,7 +158,7 @@
             text-color="white"
             class="no-border"
             valign="bottom"
-            style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg);height: 250px;"
+            style="background-repeat: no-repeat;background-image:url(static/section/intereses/comunicacion-lenguajes.jpg);height: 250px;"
           >Comunicacion con lenguajes de programacion</f7-card-header>
           <f7-toolbar bg-color="white">
             <f7-link @click="redirectTo('/currentInteres/Comunicacion con lenguajes de programacion')" link="#" text-color="black">Ver mas</f7-link>
@@ -171,7 +171,7 @@
             text-color="white"
             class="no-border"
             valign="bottom"
-            style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg);height: 250px;"
+            style="background-repeat: no-repeat;background-image:url(static/section/intereses/ia.jpg);height: 250px;"
           >Inteligencia artifical</f7-card-header>
           <f7-toolbar bg-color="white">
             <f7-link @click="redirectTo('/currentInteres/Inteligencia artifical')" link="#" text-color="black">Ver mas</f7-link>

@@ -22,7 +22,7 @@
             text-color="white"
             class="no-border"
             valign="bottom"
-            style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg);height: 250px;"
+            style="background-repeat: no-repeat;background-size: 100%;background-position-y: 50%;background-image:url(static/section/experienciaslaborales/teceng-gaming.jpg);height: 250px;"
           >Teceng Gaming</f7-card-header>
           <f7-toolbar bg-color="white">
             <f7-link @click="redirectTo('/currentExperiencia/Teceng Gaming')" link="#" text-color="black">Ver mas</f7-link>
@@ -35,7 +35,7 @@
             text-color="white"
             class="no-border"
             valign="bottom"
-            style="background-image:url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg);height: 250px;"
+            style="background-repeat: no-repeat;background-size: 100%;background-position-y: 50%;background-image:url(static/section/experienciaslaborales/opratel.jpg);height: 250px;"
           >Opratel</f7-card-header>
           <f7-toolbar bg-color="white">
             <f7-link @click="redirectTo('/currentExperiencia/Opratel')" link="#" text-color="black">Ver mas</f7-link>
