@@ -26,6 +26,7 @@
       </f7-list-item>
       <f7-list-item
       link="#"
+      @click="redirectToUrl('https://github.com/rporta?tab=repositories')"      
       title="Github"
       subtitle="github.com/rporta">
       <img slot="media" src="static/section/git/github.png" width="44" />
@@ -117,7 +118,12 @@
       redirectTo(path){
         this.$f7.view.main.router.navigate(path);
         this.$f7.panel.close();
+      },
+      redirectToUrl(path){
+        window.open(path, '_blank');
+        // window.location.replace(path);
       }
+
     }
   };
 </script>
