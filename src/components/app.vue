@@ -106,6 +106,7 @@
 <script>
 
 import routes from '../js/routes.js';
+import config from '../config/config.json';
 
 export default {
   data() {
@@ -117,6 +118,7 @@ export default {
         // App root data
         data: function () {
           return {
+            config: config
           };
         },
         // App routes
