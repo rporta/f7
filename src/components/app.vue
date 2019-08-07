@@ -13,11 +13,11 @@
         transform: translateX(0%);'
         >
           <f7-navbar title="Menu" bg-color="red" text-color="white" ></f7-navbar>
-          <div class="item-media" style="background-image: url(static/perfil/sample-1.jpg);padding: 50px;">
+          <div class="item-media" :style="'background-image: url('+ f7params.data().config.perfil.avatar +')' +';padding: 50px;'">
             <img src="static/perfil/photo.jpg" style="border-radius: 50%;height: 100px;display: block;margin: auto;">
             <div style="padding-top: 25px;">
-              <span class="badge color-green" style="padding: 5px;border-radius: 3px;">Ramiro Portas</span>
-              <span class="badge color-red" style="margin-top: 25px; padding: 5px;border-radius: 3px;">ramiro.portas@gmail.com</span>
+              <span class="badge color-green" style="padding: 5px;border-radius: 3px;">{{f7params.data().config.perfil.nombre + ' ' + f7params.data().config.perfil.apellido}}</span>
+              <span class="badge color-red" style="margin-top: 25px; padding: 5px;border-radius: 3px;">{{f7params.data().config.perfil.contacto.correo}}</span>
             </div>
           </div>
           <f7-list style="margin: 0px;" >

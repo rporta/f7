@@ -21,14 +21,14 @@
       <f7-list-item
       link="#"
       title="Gmail"
-      subtitle="ramiro.portas@gmail.com">
+      :subtitle="$f7.data.config.perfil.contacto.correo">
       <img slot="media" src="static/section/git/gmail.png" width="44" />
       </f7-list-item>
       <f7-list-item
       link="#"
       @click="redirectToUrl('https://github.com/rporta?tab=repositories')"      
       title="Github"
-      subtitle="github.com/rporta">
+      :subtitle="$f7.data.config.perfil.contacto.repositorio">
       <img slot="media" src="static/section/git/github.png" width="44" />
       </f7-list-item>
       <f7-list-item link="#" header="Cantidad de repositorios" title="21" after="">
