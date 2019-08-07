@@ -11,6 +11,7 @@
             <f7-block-title large style="margin: 0;">{{this.titulo}}</f7-block-title>
           </f7-list-item>
         </f7-list>
+        <f7-block-title medium>Informacion general</f7-block-title>
         <f7-list>
           <f7-list-item >
               <p>nombre : {{$f7.data.config.experienciaLaboral[titulo.replace(' ', '')].nombre}}</p>
@@ -49,8 +50,12 @@
                         <f7-icon text-color="deeporange" slot="media" ios="f7:add" aurora="f7:add" md="material:add"></f7-icon>
           </f7-list-item >
         </f7-list>
-
-    <f7-block-title large>Actividad </f7-block-title>
+    <f7-list tablet-inset>
+      <f7-list-item >
+        <f7-icon slot="media" f7="demo-list-icon"></f7-icon>
+        <f7-block-title large style="margin: 0;">Actividad</f7-block-title>
+      </f7-list-item>
+    </f7-list>
     <div v-for="e in $f7.data.config.experienciaLaboral[titulo.replace(' ', '')].actividad">
       <f7-block-title medium>{{e.titulo}}</f7-block-title>
       <f7-block strong>
@@ -62,9 +67,7 @@
           <f7-icon text-color="deeporange" slot="media" ios="f7:add" aurora="f7:add" md="material:add"></f7-icon>
         </f7-list-item>
       </f7-list>
-      <br>
     </div>
-
   </f7-page>
 </template>
 <script>

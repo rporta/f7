@@ -131,6 +131,17 @@
 					"adodb"
 				]
 			}, {
+				"titulo": "Desarrollo multi idioma",
+				"descripcion": "Se desarrollo la capacidad de modificar el idioma en los sistemas Vento, TI.TO, Club VIP, Progresivo, E-table, y todos sus modulos. Posteriormente se realizo una actualizacion que demando una migracion masiva para todas las salas de los casinos de cada cliente de la empresa",
+				"tecnologias": [
+					"PHP",
+					"PL/pgSQL",
+					"SQL",
+					"OOP",
+					"i18n",
+					"adodb"
+				]
+			}, {
 				"titulo": "Desarrollo modulo de impuestos",
 				"descripcion": "Dadas las resoluciones de AFIP y Loteria de la nacion, se dio la necesidad de integrar a los sistemas la posibilidad de trabajar con un modulo de impuestos, donde se trabajo con tecnicas de encriptacion y desencriptacion de información, y ademas aplicando formulas para los impuestos",
 				"tecnologias": [
