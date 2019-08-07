@@ -3,32 +3,147 @@
 		"nombre": "ramiro",
 		"apellido": "portas",
 		"dni": "36176358",
-		"telefono": "1131117404",
-		"celular": "1134782089",
-		"calle": "zuviria",
-		"altura": "171",
-		"piso": "1º",
-		"depto": "B",
-		"ciudad": "Capital Federal",
-		"codigoPostal": "1424"
+		"domicilio": {
+			"calle": "zuviria",
+			"altura": "171",
+			"piso": "1º",
+			"depto": "B",
+			"ciudad": "Capital Federal",
+			"codigoPostal": "1424"
+		},
+		"contacto": {
+			"telefono": "1131117404",
+			"celular": "1134782089",
+			"correo": "ramiro.portas@gmail.com",
+			"repositorio": "https://github.com/rporta"
+		}
 	},
 	"experienciaLaboral": [{
 		"nombre": "Teceng-gaming S.A.",
-		"telefono": "+541145889500",
+		"domicilio": {
+			"calle": "Triunvirato",
+			"altura": "3058/60",
+			"ciudad": "Capital Federal",
+			"codigoPostal": "1427"
+		},
+		"contacto": {
+			"telefono": "+541145889500"
+		},
 		"rubro": "Azar",
-		"calle": "Triunvirato",
-		"altura": "3058/60",
-		"ciudad": "Capital Federal",
-		"codigoPostal": "1427",
 		"periodoLaboral": "2016-2019",
-		"rol": [
-
-		],
+		"especializacion": "desarrollador backend-frontend",
+		"actividad": [{
+			"titulo": "Desarrollo y mantenimiento sistema Vento",
+			"descripcion": "Es un sistema de administración multi-empresas y control Online (SOL) para máquinas de juego de azar que permite obtener información electrónica de las mismas a través de un protocolo de comunicación estándar o de los contadores mecánicos de aquellas que no lo poseen. Los datos son procesados y almacenados por un servidor central que se comunica por vínculos con los servidores locales de cada sala. La información puede ser accedida a través de Internet, previa identificación de usuario mediante una política de acceso bien definida.",
+			"tecnologias": [
+				"PHP",
+				"PL/pgSQL",
+				"SQL",
+				"OOP",
+				"javaScript",
+				"HTML5",
+				"GIT",
+				"Linux",
+				"adodb"
+			]
+		}, {
+			"titulo": "Desarrollo y mantenimiento sistema TI.TO",
+			"descripcion": "TITO es la abreviatura de Ticket In y Ticket Out. Se trata de emplear tickets en las máquinas tragamonedas en lugar de monedas o billetes. Los tickets son producidos por la misma máquina, pueden ser utilizados para introducirlos en cualquier maquina tragamoneda o bien cobrados en caja.",
+			"tecnologias": [
+				"PHP",
+				"PL/pgSQL",
+				"SQL",
+				"OOP",
+				"javaScript",
+				"HTML5",
+				"GIT",
+				"Linux",
+				"adodb"
+			]
+		}, {
+			"titulo": "Desarrollo y mantenimiento sistema Club VIP",
+			"descripcion": "El modulo CVIP es una potente herramienta de fidelización de clientes que permite al casino implementar con facilidad las reglas definidas en la gestión de campañas de marketing. Es un sistema flexible a los cambios de definición del negocio, permite potenciar las reglas de fidelización maximizando todos los recursos.",
+			"tecnologias": [
+				"PHP",
+				"PL/pgSQL",
+				"SQL",
+				"OOP",
+				"javaScript",
+				"HTML5",
+				"GIT",
+				"Linux",
+				"WebServices REST/ SOAP",
+				"adodb"
+			]
+		}, {
+			"titulo": "Desarrollo y mantenimiento sistema Progresivo",
+			"descripcion": "Progresivo es un premio acumulado, generado por el aporte de un grupo de máquinas, que busca atraer a más público a jugar en las máquinas tragamonedas. Cualquiera de las maquinas que pertenezcan al grupo del progresivo tiene la misma probabilidad de ganar el premio. Para hacerlo atractivo el incremento del monto del premio es proporcional a la cantidad de créditos apostados. Ya que el fin del sistema es atraer gente, el premio siempre inicia desde un valor inicial configurable. Además de tener la posibilidad de más de un premio. El grupo de máquinas que pueden pertenecer al progresivo no está confinado a un mismo piso o sala de juego, también puede agrupar máquinas de otros pisos o salas sin importar la distancia haciendo más atractivo el premio, por su rápido crecimiento",
+			"tecnologias": [
+				"PHP",
+				"PL/pgSQL",
+				"SQL",
+				"OOP",
+				"javaScript",
+				"HTML5",
+				"GIT",
+				"Linux",
+				"WebServices REST/ SOAP",
+				"adodb"
+			]
+		}, {
+			"titulo": "Desarrollo y mantenimiento E-table",
+			"descripcion": "Para la gestión de la operación y control de las mesas de paño, se propone el uso de la eTable, que consiste en un módulo que permite conectar en linea todas las mesas del casino con un servidor, de modo de controlar en tiempo real el ﬂujo de dinero de cada mesa de la sala. Los datos de los movimientos de las mesas de paño se cargan a través de las terminales, con lo que se logra la completa digitalización de la operación del casino. Las terminales (que pueden ser cualquier Tablet estándar del mercado) permiten recopilar información especiﬁca de cada juego (Ruleta, Punto y Banca, Pócker, Black Jack y Dados)",
+			"tecnologias": [
+				"Composer",
+				"i18n",
+				"PHP",
+				"PL/pgSQL",
+				"SQL",
+				"OOP",
+				"javaScript",
+				"HTML5",
+				"Framework Symfony",
+				"GIT",
+				"Linux",
+				"WebServices REST/ SOAP",
+				"adodb"
+			]
+		}, {
+			"titulo": "Desarrollo de migraciones",
+			"descripcion": "Ante determinada cantidad de bugs en los producto, se realizaba una actualizacion del sistema que requeria una migraciones de datos, entre el modelo actual de base de datos al nuevo modelo de base de datos",
+			"tecnologias": [
+				"PHP",
+				"PL/pgSQL",
+				"SQL",
+				"OOP",
+				"adodb"
+			]
+		}, {
+			"titulo": "Desarrollo generico de migraciones",
+			"descripcion": "Se dio la necesidad de generar un desarrollo generico de migraciones, dado que cada cliente estaba compuesto por una cantidad de casinos, y cada casino estaba compuesto por una cantidad de salas, y cada sala integraba el sistema en versiones diferentes, acoplado con modulo de acuerdo a la necesidad de la sala, y por cada actualizacion se requeria realizar un desarrollo unico de migracion. Por este motivo se solicito realizar un desarrollo generico de migracion de datos, utilizando extensiones de PL/pgSQL",
+			"tecnologias": [
+				"PHP",
+				"PL/pgSQL",
+				"SQL",
+				"OOP",
+				"adodb"
+			]
+		}, {
+			"titulo": "Desarrollo modulo de impuestos",
+			"descripcion": "Dadas las resoluciones de AFIP y Loteria de la nacion, se dio la necesidad de integrar a los sistemas la posibilidad de trabajar con un modulo de impuestos, donde se trabajo con tecnicas de encriptacion y desencriptacion de información, y ademas aplicando formulas para los impuestos",
+			"tecnologias": [
+				"PHP",
+				"PL/pgSQL",
+				"SQL",
+				"OOP",
+				"adodb"
+			]
+		}],
 		"tecnologias": [
 			"PHP",
 			"PL/pgSQL",
 			"SQL",
-			"WS REST/ SOAP",
+			"WebServices REST/ SOAP",
 			"OOP",
 			"Framework 7 CLI",
 			"Dom7",
@@ -47,17 +162,32 @@
 		]
 	}, {
 		"nombre": "Opratel S.A.",
-		"telefono": "+541145889500",
+		"domicilio": {
+			"calle": "Av. Pres. Manuel Quintana",
+			"altura": "189 5",
+			"piso": "5º",
+			"ciudad": "Capital Federal",
+			"codigoPostal": "1014"
+		},
+		"contacto": {
+			"telefono": "+541145889500"
+		},
 		"rubro": "Telecomunicaciones",
-		"calle": "Av. Pres. Manuel Quintana",
-		"altura": "189 5",
-		"piso": "5º",
-		"ciudad": "Capital Federal",
-		"codigoPostal": "1014",
 		"periodoLaboral": "2019-actualidad",
-		"rol": [
-
-		],
+		"especializacion": "desarrollador backend-frontend",
+		"actividad": [{
+			"titulo": "",
+			"descripcion": "",
+			"tecnologias": []
+		}, {
+			"titulo": "",
+			"descripcion": "",
+			"tecnologias": []
+		}, {
+			"titulo": "",
+			"descripcion": "",
+			"tecnologias": []
+		}],
 		"tecnologias": [
 			"PHP",
 			"MongoDb",
@@ -88,6 +218,19 @@
 			"XML",
 			"MVC"
 		]
+	}],
+	"desarrollosPersonales": [{
+		"titulo": "",
+		"descripcion": "",
+		"url": "",
+	}, {
+		"titulo": "",
+		"descripcion": "",
+		"url": "",
+	}, {
+		"titulo": "",
+		"descripcion": "",
+		"url": "",
 	}],
 	"habilidadesTecnologicas": [
 		"PHP",
@@ -137,12 +280,13 @@
 		"salarioBruto": "el actual mas el 35%",
 		"beneficios": [
 			"homeOffice",
-			"diaDeCumpleaños",
-			"vacaciones que corran en dias habiles, o 3 semanas de vacaciones"
+			"dia de cumpleaños",
+			"vacaciones que corran en dias habiles",
+			"3 semanas de vacaciones"
 		],
 		"modalidad": [
 			"fullremoto",
-			"en la oficina con 1 homeOffice"
+			"en la oficina con al menos 1 homeOffice"
 		],
 		"tipo de empresa": "SA",
 		"cantidad de empleados": " <= 60 ",
